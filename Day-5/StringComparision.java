@@ -7,7 +7,7 @@ public class StringComparision
 		String input1,input2;
 		input1=input.nextLine();
 		input2=input.nextLine();
-		if (compareUsingEquals(input1,input2) && compareUsingCharAt(input1,input2))
+		if (compareUsingEquals(input1,input2) && compareUsingCharAt(input1,input2))//compared the both ways of comparing the strings
 		{
 			System.out.println("Both the Input Strings are equal");
 		}
@@ -18,7 +18,7 @@ public class StringComparision
 		
 		
 	}
-	public static boolean compareUsingCharAt(String input1,String input2)
+	public static boolean compareUsingCharAt(String input1,String input2)//Added the function to compare string using char at function
 	{
 		if (input1.length()!=input2.length())
 		{
@@ -33,7 +33,7 @@ public class StringComparision
 		}
 		return true;
 	}
-	public static boolean compareUsingEquals(String input1,String input2)
+	public static boolean compareUsingEquals(String input1,String input2)//created a function to compare string using eqauls()method
 	{
 		if(input1.equals(input2))
 		{
